@@ -5,7 +5,7 @@ button,
 input,
 select,
 textarea {
-    color: #222;
+    color: #353126;
 }
 
 html {
@@ -14,12 +14,12 @@ html {
 }
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: #E5D7A4;
     text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: #E5D7A4;
     text-shadow: none;
 }
 
@@ -71,26 +71,42 @@ body {
 }
 
 /* ===================
-    ALL: Orange Theme
+    ALL: Lion-styles!
    =================== */
+html {
+    min-height: 100%;
+}
+body {
+    min-height: 100%;
+    background: url('../img/lion.png') bottom right no-repeat;
+}
 
 .header-container {
-    border-bottom: 20px solid #e44d26;
+    background: white;
+    border-bottom: 20px solid #83A4AE;
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #e44d26;
+    border-top: 20px solid #83A4AE;
 }
 
-.header-container,
 .footer-container,
 .main aside {
-    background: #f16529;
+    background: #5F858E;
 }
 
-.title {
-    color: white;
+
+h1 {
+    color: #90AF79;
+}
+h2 {
+    color: #83A4AE;
+}
+
+a {
+    color: #90AF79;
+    text-decoration: none;
 }
 
 /* ==============
@@ -242,13 +258,11 @@ nav a:hover {
    ============ */
 
     .main article {
-        float: left;
-        width: 57%;
+        width: 60%;
     }
 
     .main aside {
-        float: right;
-        width: 28%;
+        width: 40%;
     }
 }
 
